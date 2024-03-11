@@ -1,6 +1,6 @@
   /// <reference types="Cypress"/>
 
-  describe('Iterate over elements',()=>{
+  describe('Iterate over web elements',()=>{
 
     it('Click on th first item using item text',()=>{
         cy.visit("https://automationteststore.com/")
