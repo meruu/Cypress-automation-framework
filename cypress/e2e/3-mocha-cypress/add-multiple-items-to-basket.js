@@ -16,7 +16,7 @@
         autoStore_Homepage_PO.clickOn_HairCare_Link()
     });
 
-    it('Add specific items to basket', () => {
+    it('Add specific items to the basket', () => {
     globalThis.data.productName.forEach(function(ele){
             cy.addProductToBasket(ele).then(()=>{
                 //debugger
